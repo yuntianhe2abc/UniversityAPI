@@ -1,9 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const studentRouter = require("./routes/student.route.js");
-const courseRouter = require("./routes/course.route.js");
-const teacherRouter = require("./routes/teacher.route.js");
-const productRoute = require("./routes/product.route");
+const studentRouter = require("./app/routes/student.route.js");
+const courseRouter = require("./app/routes/course.route.js");
+const teacherRouter = require("./app/routes/teacher.route.js");
+const productRoute = require("./app/routes/product.route.js");
 
 const app = express();
 

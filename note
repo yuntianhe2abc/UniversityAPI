@@ -1,0 +1,8 @@
+#see file structure inside container
+node-university-app-image
+#run docker:
+docker run -p 3010:3005 -d --name uni-app node-university-app-image
+#force stop and remove container
+docker rm uni-app -f
+#aviod copying unwanted files:
+create .dockerignore file
